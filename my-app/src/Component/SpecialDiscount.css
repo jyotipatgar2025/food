@@ -1,0 +1,153 @@
+.discount-section {
+    padding: 0px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    text-align: center;
+    width: 900px;
+  }
+  
+  .top-section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 0px;
+  }
+  
+  
+  
+  .restaurant-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .countdown-box {
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+  }
+  
+  .countdown {
+    color: gray;
+    font-weight: bold;
+  }
+  
+  .time {
+    color: #ef624a;
+    font-weight: bold;
+    margin-left: 2px;
+  }
+  
+  .items-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+  }
+  
+  .item-card {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .item-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .availability {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: #D2D3D5;
+    backdrop-filter: blur(10%);
+    color: black;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+  }
+  
+  .item-name {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .price-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 50%;
+  }
+  
+  .discount {
+    background-color: #FDEAEA;
+    color: #e85869;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 12px;
+    flex-grow: 3; /* Allows spacing between original price and order button */
+  }
+  
+  .order-button {
+    background: black;
+    color: white;
+    padding: 6px 20px;
+    align-self: flex-end;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .discounted-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+  }
