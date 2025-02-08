@@ -32,7 +32,7 @@ const SpecialDiscount = () => {
             <h3 className="item-name">{item.name}</h3>
             <div className="price-container">
               <div className="top-row">
-                <span className="discount">15%</span>
+                <span className="discount">16%</span>
                 <span className="original-price">{item.originalPrice}</span>
               </div>
               <button className="order-button">Order</button>
